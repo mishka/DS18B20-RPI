@@ -6,8 +6,8 @@
 - 4.7K ohm or 10K ohm resistor
 
 # setup before running
-- Connect the sensor to the rpi.
-![alt tag](https://pasteboard.co/HZXPyLa.png "circuit")
+- Connect the sensor to the rpi.  
+![alt tag](https://cdn1.imggmi.com/uploads/2019/2/7/0b6cd6047c213e7c06d3baf5928de3da-full.png "circuit")
 - Add ```dtoverlay=w1–gpio``` to ```/boot/config.txt```.
 - Reboot.
 - Open the terminal then type ```modprobe w1–gpio``` and ```modprobe w1-therm```.
