@@ -37,7 +37,7 @@ def read_temp():
         from datetime import datetime
         exact_time = datetime.now().strftime('%H:%M:%S')
         
-        tweet = "{}\n\nRemoraid's water temperature is {}ºC".format(exact_time, temp_c)
+        tweet = "{}Remoraid's water temperature is {}ºC".format(exact_time, temp_c)
         api.update_status(status = tweet)
         print(tweet)
 
